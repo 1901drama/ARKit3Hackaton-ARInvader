@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF67752234260D7000E99FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67751234260D7000E99FF /* AppDelegate.swift */; };
+		7BF67754234260D7000E99FF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67753234260D7000E99FF /* art.scnassets */; };
+		7BF67756234260D7000E99FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67755234260D7000E99FF /* ViewController.swift */; };
+		7BF67759234260D7000E99FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67757234260D7000E99FF /* Main.storyboard */; };
+		7BF6775B234260DD000E99FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6775A234260DD000E99FF /* Assets.xcassets */; };
+		7BF6775E234260DD000E99FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6775C234260DD000E99FF /* LaunchScreen.storyboard */; };
+		7BF67769234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67768234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift */; };
+		7BF67774234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67773234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BF67765234260DD000E99FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF67746234260D7000E99FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF6774D234260D7000E99FF;
+			remoteInfo = "ARKit3Hackaton-ARInvader";
+		};
+		7BF67770234260DE000E99FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF67746234260D7000E99FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF6774D234260D7000E99FF;
+			remoteInfo = "ARKit3Hackaton-ARInvader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BF6774E234260D7000E99FF /* ARKit3Hackaton-ARInvader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit3Hackaton-ARInvader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF67751234260D7000E99FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BF67753234260D7000E99FF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7BF67755234260D7000E99FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BF67758234260D7000E99FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF6775A234260DD000E99FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF6775D234260DD000E99FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF6775F234260DD000E99FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF67764234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit3Hackaton-ARInvaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF67768234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit3Hackaton_ARInvaderTests.swift; sourceTree = "<group>"; };
+		7BF6776A234260DD000E99FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF6776F234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit3Hackaton-ARInvaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF67773234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit3Hackaton_ARInvaderUITests.swift; sourceTree = "<group>"; };
+		7BF67775234260DE000E99FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF6774B234260D7000E99FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF67761234260DD000E99FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF6776C234260DE000E99FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF67745234260D7000E99FF = {
+			isa = PBXGroup;
+			children = (
+				7BF67750234260D7000E99FF /* ARKit3Hackaton-ARInvader */,
+				7BF67767234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests */,
+				7BF67772234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests */,
+				7BF6774F234260D7000E99FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF6774F234260D7000E99FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF6774E234260D7000E99FF /* ARKit3Hackaton-ARInvader.app */,
+				7BF67764234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests.xctest */,
+				7BF6776F234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF67750234260D7000E99FF /* ARKit3Hackaton-ARInvader */ = {
+			isa = PBXGroup;
+			children = (
+				7BF67751234260D7000E99FF /* AppDelegate.swift */,
+				7BF67753234260D7000E99FF /* art.scnassets */,
+				7BF67755234260D7000E99FF /* ViewController.swift */,
+				7BF67757234260D7000E99FF /* Main.storyboard */,
+				7BF6775A234260DD000E99FF /* Assets.xcassets */,
+				7BF6775C234260DD000E99FF /* LaunchScreen.storyboard */,
+				7BF6775F234260DD000E99FF /* Info.plist */,
+			);
+			path = "ARKit3Hackaton-ARInvader";
+			sourceTree = "<group>";
+		};
+		7BF67767234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF67768234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift */,
+				7BF6776A234260DD000E99FF /* Info.plist */,
+			);
+			path = "ARKit3Hackaton-ARInvaderTests";
+			sourceTree = "<group>";
+		};
+		7BF67772234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF67773234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift */,
+				7BF67775234260DE000E99FF /* Info.plist */,
+			);
+			path = "ARKit3Hackaton-ARInvaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF6774D234260D7000E99FF /* ARKit3Hackaton-ARInvader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF67778234260DE000E99FF /* Build configuration list for PBXNativeTarget "ARKit3Hackaton-ARInvader" */;
+			buildPhases = (
+				7BF6774A234260D7000E99FF /* Sources */,
+				7BF6774B234260D7000E99FF /* Frameworks */,
+				7BF6774C234260D7000E99FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit3Hackaton-ARInvader";
+			productName = "ARKit3Hackaton-ARInvader";
+			productReference = 7BF6774E234260D7000E99FF /* ARKit3Hackaton-ARInvader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF67763234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF6777B234260DE000E99FF /* Build configuration list for PBXNativeTarget "ARKit3Hackaton-ARInvaderTests" */;
+			buildPhases = (
+				7BF67760234260DD000E99FF /* Sources */,
+				7BF67761234260DD000E99FF /* Frameworks */,
+				7BF67762234260DD000E99FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF67766234260DD000E99FF /* PBXTargetDependency */,
+			);
+			name = "ARKit3Hackaton-ARInvaderTests";
+			productName = "ARKit3Hackaton-ARInvaderTests";
+			productReference = 7BF67764234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BF6776E234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF6777E234260DE000E99FF /* Build configuration list for PBXNativeTarget "ARKit3Hackaton-ARInvaderUITests" */;
+			buildPhases = (
+				7BF6776B234260DE000E99FF /* Sources */,
+				7BF6776C234260DE000E99FF /* Frameworks */,
+				7BF6776D234260DE000E99FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF67771234260DE000E99FF /* PBXTargetDependency */,
+			);
+			name = "ARKit3Hackaton-ARInvaderUITests";
+			productName = "ARKit3Hackaton-ARInvaderUITests";
+			productReference = 7BF6776F234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF67746234260D7000E99FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = 1901drama;
+				TargetAttributes = {
+					7BF6774D234260D7000E99FF = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					7BF67763234260DD000E99FF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 7BF6774D234260D7000E99FF;
+					};
+					7BF6776E234260DE000E99FF = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 7BF6774D234260D7000E99FF;
+					};
+				};
+			};
+			buildConfigurationList = 7BF67749234260D7000E99FF /* Build configuration list for PBXProject "ARKit3Hackaton-ARInvader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF67745234260D7000E99FF;
+			productRefGroup = 7BF6774F234260D7000E99FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF6774D234260D7000E99FF /* ARKit3Hackaton-ARInvader */,
+				7BF67763234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests */,
+				7BF6776E234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF6774C234260D7000E99FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF67754234260D7000E99FF /* art.scnassets in Resources */,
+				7BF6775E234260DD000E99FF /* LaunchScreen.storyboard in Resources */,
+				7BF6775B234260DD000E99FF /* Assets.xcassets in Resources */,
+				7BF67759234260D7000E99FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF67762234260DD000E99FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF6776D234260DE000E99FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF6774A234260D7000E99FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF67756234260D7000E99FF /* ViewController.swift in Sources */,
+				7BF67752234260D7000E99FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF67760234260DD000E99FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF67769234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF6776B234260DE000E99FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF67774234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BF67766234260DD000E99FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF6774D234260D7000E99FF /* ARKit3Hackaton-ARInvader */;
+			targetProxy = 7BF67765234260DD000E99FF /* PBXContainerItemProxy */;
+		};
+		7BF67771234260DE000E99FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF6774D234260D7000E99FF /* ARKit3Hackaton-ARInvader */;
+			targetProxy = 7BF67770234260DE000E99FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BF67757234260D7000E99FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF67758234260D7000E99FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BF6775C234260DD000E99FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF6775D234260DD000E99FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BF67776234260DE000E99FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BF67777234260DE000E99FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF67779234260DE000E99FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				INFOPLIST_FILE = "ARKit3Hackaton-ARInvader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y3llow.ARKit3Hackaton-ARInvader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BF6777A234260DE000E99FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				INFOPLIST_FILE = "ARKit3Hackaton-ARInvader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y3llow.ARKit3Hackaton-ARInvader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BF6777C234260DE000E99FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				INFOPLIST_FILE = "ARKit3Hackaton-ARInvaderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y3llow.ARKit3Hackaton-ARInvaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit3Hackaton-ARInvader.app/ARKit3Hackaton-ARInvader";
+			};
+			name = Debug;
+		};
+		7BF6777D234260DE000E99FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				INFOPLIST_FILE = "ARKit3Hackaton-ARInvaderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y3llow.ARKit3Hackaton-ARInvaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit3Hackaton-ARInvader.app/ARKit3Hackaton-ARInvader";
+			};
+			name = Release;
+		};
+		7BF6777F234260DE000E99FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				INFOPLIST_FILE = "ARKit3Hackaton-ARInvaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y3llow.ARKit3Hackaton-ARInvaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit3Hackaton-ARInvader";
+			};
+			name = Debug;
+		};
+		7BF67780234260DE000E99FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				INFOPLIST_FILE = "ARKit3Hackaton-ARInvaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "y3llow.ARKit3Hackaton-ARInvaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit3Hackaton-ARInvader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF67749234260D7000E99FF /* Build configuration list for PBXProject "ARKit3Hackaton-ARInvader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF67776234260DE000E99FF /* Debug */,
+				7BF67777234260DE000E99FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF67778234260DE000E99FF /* Build configuration list for PBXNativeTarget "ARKit3Hackaton-ARInvader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF67779234260DE000E99FF /* Debug */,
+				7BF6777A234260DE000E99FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF6777B234260DE000E99FF /* Build configuration list for PBXNativeTarget "ARKit3Hackaton-ARInvaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF6777C234260DE000E99FF /* Debug */,
+				7BF6777D234260DE000E99FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF6777E234260DE000E99FF /* Build configuration list for PBXNativeTarget "ARKit3Hackaton-ARInvaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF6777F234260DE000E99FF /* Debug */,
+				7BF67780234260DE000E99FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF67746234260D7000E99FF /* Project object */;
+}
