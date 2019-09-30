@@ -13,8 +13,12 @@
 		7BF67759234260D7000E99FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67757234260D7000E99FF /* Main.storyboard */; };
 		7BF6775B234260DD000E99FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6775A234260DD000E99FF /* Assets.xcassets */; };
 		7BF6775E234260DD000E99FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6775C234260DD000E99FF /* LaunchScreen.storyboard */; };
-		7BF67769234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67768234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift */; };
-		7BF67774234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67773234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift */; };
+		7BF67783234261B9000E99FF /* Font in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67781234261B8000E99FF /* Font */; };
+		7BF67784234261B9000E99FF /* particle in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67782234261B8000E99FF /* particle */; };
+		7BF67788234261CC000E99FF /* icons8-pic-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF67786234261CB000E99FF /* icons8-pic-25.png */; };
+		7BF6778A234261DB000E99FF /* ARPlaneAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67789234261DA000E99FF /* ARPlaneAnchor.swift */; };
+		7BF6778C2342634C000E99FF /* PixelMplus10-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6778B2342634C000E99FF /* PixelMplus10-Regular.ttf */; };
+		7BF67792234264DF000E99FF /* 3fQbtNxC.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BF6778D23426360000E99FF /* 3fQbtNxC.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +48,13 @@
 		7BF6775D234260DD000E99FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF6775F234260DD000E99FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF67764234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit3Hackaton-ARInvaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BF67768234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit3Hackaton_ARInvaderTests.swift; sourceTree = "<group>"; };
-		7BF6776A234260DD000E99FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF6776F234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit3Hackaton-ARInvaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BF67773234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit3Hackaton_ARInvaderUITests.swift; sourceTree = "<group>"; };
-		7BF67775234260DE000E99FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF67781234261B8000E99FF /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
+		7BF67782234261B8000E99FF /* particle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = particle; sourceTree = "<group>"; };
+		7BF67786234261CB000E99FF /* icons8-pic-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-pic-25.png"; sourceTree = "<group>"; };
+		7BF67789234261DA000E99FF /* ARPlaneAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPlaneAnchor.swift; sourceTree = "<group>"; };
+		7BF6778B2342634C000E99FF /* PixelMplus10-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PixelMplus10-Regular.ttf"; path = "ARKit3Hackaton-ARInvader/Font/PixelMplus10-Regular.ttf"; sourceTree = "<group>"; };
+		7BF6778D23426360000E99FF /* 3fQbtNxC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3fQbtNxC.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +85,8 @@
 		7BF67745234260D7000E99FF = {
 			isa = PBXGroup;
 			children = (
+				7BF6778B2342634C000E99FF /* PixelMplus10-Regular.ttf */,
 				7BF67750234260D7000E99FF /* ARKit3Hackaton-ARInvader */,
-				7BF67767234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests */,
-				7BF67772234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests */,
 				7BF6774F234260D7000E99FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,30 +107,17 @@
 				7BF67751234260D7000E99FF /* AppDelegate.swift */,
 				7BF67753234260D7000E99FF /* art.scnassets */,
 				7BF67755234260D7000E99FF /* ViewController.swift */,
+				7BF67789234261DA000E99FF /* ARPlaneAnchor.swift */,
 				7BF67757234260D7000E99FF /* Main.storyboard */,
 				7BF6775A234260DD000E99FF /* Assets.xcassets */,
 				7BF6775C234260DD000E99FF /* LaunchScreen.storyboard */,
 				7BF6775F234260DD000E99FF /* Info.plist */,
+				7BF6778D23426360000E99FF /* 3fQbtNxC.png */,
+				7BF67786234261CB000E99FF /* icons8-pic-25.png */,
+				7BF67781234261B8000E99FF /* Font */,
+				7BF67782234261B8000E99FF /* particle */,
 			);
 			path = "ARKit3Hackaton-ARInvader";
-			sourceTree = "<group>";
-		};
-		7BF67767234260DD000E99FF /* ARKit3Hackaton-ARInvaderTests */ = {
-			isa = PBXGroup;
-			children = (
-				7BF67768234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift */,
-				7BF6776A234260DD000E99FF /* Info.plist */,
-			);
-			path = "ARKit3Hackaton-ARInvaderTests";
-			sourceTree = "<group>";
-		};
-		7BF67772234260DE000E99FF /* ARKit3Hackaton-ARInvaderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7BF67773234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift */,
-				7BF67775234260DE000E99FF /* Info.plist */,
-			);
-			path = "ARKit3Hackaton-ARInvaderUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +224,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF6778C2342634C000E99FF /* PixelMplus10-Regular.ttf in Resources */,
+				7BF67783234261B9000E99FF /* Font in Resources */,
 				7BF67754234260D7000E99FF /* art.scnassets in Resources */,
+				7BF67784234261B9000E99FF /* particle in Resources */,
 				7BF6775E234260DD000E99FF /* LaunchScreen.storyboard in Resources */,
+				7BF67792234264DF000E99FF /* 3fQbtNxC.png in Resources */,
+				7BF67788234261CC000E99FF /* icons8-pic-25.png in Resources */,
 				7BF6775B234260DD000E99FF /* Assets.xcassets in Resources */,
 				7BF67759234260D7000E99FF /* Main.storyboard in Resources */,
 			);
@@ -262,6 +259,7 @@
 			files = (
 				7BF67756234260D7000E99FF /* ViewController.swift in Sources */,
 				7BF67752234260D7000E99FF /* AppDelegate.swift in Sources */,
+				7BF6778A234261DB000E99FF /* ARPlaneAnchor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF67769234260DD000E99FF /* ARKit3Hackaton_ARInvaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BF67774234260DE000E99FF /* ARKit3Hackaton_ARInvaderUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ARKit3Hackaton-ARInvader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GRPFP8K8M3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "ARKit3Hackaton-ARInvader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

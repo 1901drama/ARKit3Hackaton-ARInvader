@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ARKit3Hackaton-ARInvader
 //
-//  Created by タダ・ドラマ on 2019/10/01.
+//  Created by drama on 2019/09/28.
 //  Copyright © 2019 1901drama. All rights reserved.
 //
 
